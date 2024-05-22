@@ -1,10 +1,10 @@
-# Práctica | Mi primer servidor TCP
+# Práctica | Mi primer servidor HTTP
 
-This is an application that, through network manipulation, creates a server where several clients can connect and share messages with each other.
+This is an application that, through network manipulation, creates a server and manipulates http requests and responses made in a simple webpage, containing 4 different addresses.
 
 ## Getting Started
 
-You can click the followin link to download the app source code files: https://github.com/Esteban-J/Tarea-Mi-primer-servidor-TCP/archive/refs/heads/main.zip
+You can click the followin link to download the app source code files: https://github.com/Esteban-J/Practica-Mi-primer-servidor-HTTP/archive/refs/heads/main.zip
 
 ### Prerequisites
 
@@ -34,19 +34,27 @@ choco install nodejs
 ```
 
 ## Running a test
-To execute  a test of the application you'll have to use three or more separate command line terminals
-
-In one of them run the server.js script with the node command:
+To execute  a test of the application run the following comand on a command line terminal:
 ```
 node server.js
 ```
-A server will be created and clintes will be able to connect to it.
+A server will be created.
 
-In the other terminals run the clien.js script, as many clients as you desire to have.
-```
-node client.js
-```
-The full aplication will be then completely up and running for a test. Just write a message you want to send to the other clients and whatch the aplication in action.
+Next, open a web browser and inside the address-bar type localhost:4444
+
+The web browser will redirect you first to the home page of the website.
+
+The following are the adrresses you can go to:
+
+*(index.html) by entering localhost:4444
+*(readme.txt) by entering localhost:4444/readme.txt
+*(ventas.html) by entering localhost:4444/readme.txt
+*(image.jpeg) by entering localhost:4444/images/image.jpeg
+
+To check the implementation of the aplication you can press f12 to open the dev tools of the browser and corroborate if the "content type" of the pages correspond to the extention type of the url.
+  
+This is how the aplication is manipulating and modyfing the responses made in the website.
+ 
 
 ## Built With
 
