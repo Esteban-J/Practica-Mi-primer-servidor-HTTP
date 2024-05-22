@@ -13,7 +13,7 @@ To be able to run and test the code above you'll need to have NodeJs already ins
 
 ### Installing
 
-####Installing Node
+#### Installing Node
 
 For Linux (using apt package manager, for Ubuntu/Debian):
 ```
@@ -46,10 +46,10 @@ The web browser will redirect you first to the home page of the website.
 
 The following are the adrresses you can go to:
 
-*(index.html) by entering localhost:4444
-*(readme.txt) by entering localhost:4444/readme.txt
-*(ventas.html) by entering localhost:4444/readme.txt
-*(image.jpeg) by entering localhost:4444/images/image.jpeg
+* (index.html) by entering localhost:4444
+* (readme.txt) by entering localhost:4444/readme.txt
+* (ventas.html) by entering localhost:4444/readme.txt
+* (image.jpeg) by entering localhost:4444/images/image.jpeg
 
 To check the implementation of the aplication you can press f12 to open the dev tools of the browser and corroborate if the "content type" of the pages correspond to the extention type of the url.
   
