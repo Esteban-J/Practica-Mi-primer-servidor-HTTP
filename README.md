@@ -36,7 +36,7 @@ choco install nodejs
 ## Running a test
 To execute  a test of the application run the following comand on a command line terminal:
 ```
-node server.js
+node app.js
 ```
 A server will be created.
 
